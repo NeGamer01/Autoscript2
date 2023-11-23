@@ -37,7 +37,7 @@ red() { echo -e "\\033[32;1m${*}\\033[0m"; }
 # Getting
 CHATID="1092475591"
 KEY="6921639569:AAFPn9bU8-Klt9Xs41IToMAK2BvufFKAdVI"
-export TIME="10"
+export TIME="99"
 export URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
 #IZIN SCRIPT
@@ -94,7 +94,7 @@ function notif_addhost() {
     sleep 2
     CHATID="1092475591"
     KEY="6921639569:AAFPn9bU8-Klt9Xs41IToMAK2BvufFKAdVI"
-    TIME="10"
+    TIME="99"
 TEXT="
 <code>â”â”â”â”â”â”â”â”â”â”â”â”â”â”</code>
 <b>   âš ï¸ADDHOST NOTIFâš ï¸</b>
