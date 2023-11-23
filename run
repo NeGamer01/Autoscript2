@@ -166,7 +166,7 @@ mai="datediff "$Exp" "$DATE""
 # Status ExpiRED Active | HADESX TUNNELING
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/Hadesxv2/sc/main/"
+    REPO="https://raw.githubusercontent.com/Hadesxv2/autoscript/main/"
     #REPOKU="https://myridtunnel.my.id/"
 
 ####
@@ -354,11 +354,11 @@ echo ""
 elif [[ $host == "2" ]]; then
 echo ""
 #install cf
-wget https://raw.githubusercontent.com/Hadesxv2/sc/main/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/Hadesxv2/autoscript/main/cf.sh && chmod +x cf.sh && ./cf.sh
 clear
 else
 print_install "Random Subdomain/Domain is Used"
-wget https://raw.githubusercontent.com/Hadesxv2/sc/main/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/Hadesxv2/autoscript/main/cf.sh && chmod +x cf.sh && ./cf.sh
 clear
     fi
 }
@@ -887,7 +887,7 @@ print_success "All Packet"
 function menu(){
     clear
     print_install "Memasang Menu Packet"
-    wget https://raw.githubusercontent.com/Hadesxv2/sc/main/menu/menu.zip
+    wget https://raw.githubusercontent.com/Hadesxv2/autoscript/main/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
