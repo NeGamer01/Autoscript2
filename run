@@ -1036,7 +1036,7 @@ domain=$(cat /etc/xray/domain)
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>────────────────────</code>
-<b>   AUTOSCRIPT HADESX TUNNEL  </b>
+<b>   HADESX AUTOSCRIPT  </b>
 <code>────────────────────</code>
 <code>User   : </code><code>$USRSC</code>
 <code>Domain : </code><code>$domain</code>
@@ -1046,7 +1046,7 @@ domain=$(cat /etc/xray/domain)
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>────────────────────</code>
 <i>Automatic Notification from</i>
-<i>Hadesx Tunnel</i>
+<i>HADESX TUNNELING</i>
 "'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🐳","url":"https://t.me/iHadesx"},{"text":"GRUP🐬","url":"https://t.me/HadesxGroup"}]]}'
    
 curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
