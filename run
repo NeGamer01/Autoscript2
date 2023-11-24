@@ -895,9 +895,9 @@ function menu(){
     rm -rf menu.zip
 }
 #botmintod
-  function menu(){
+  function botmin(){
     clear
-    botmin_install "Memasang adminbot Packet"
+    print_install "Memasang adminbot Packet"
     wget https://raw.githubusercontent.com/Hadesxv2/autoscript/main/botmin.zip
     unzip botmin.zip
     chmod +x botmin/*
