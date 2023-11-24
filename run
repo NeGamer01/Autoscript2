@@ -893,19 +893,9 @@ function menu(){
     mv menu/* /usr/local/sbin
     rm -rf menu
     rm -rf menu.zip
-}
-#botmintod
-  function botmin(){
-    clear
-    print_install "Memasang adminbot Packet"
-    wget https://raw.githubusercontent.com/Hadesxv2/autoscript/main/botmin.zip
-    unzip botmin.zip
-    chmod +x botmin/*
-    mv botmin/* /usr/local/sbin
-    rm -rf botmin
-    rm -rf botmin.zip
-}
 
+#botmintod
+}
 # Membaut Default Menu 
 function profile(){
 clear
@@ -1019,7 +1009,6 @@ clear
     ins_Fail2ban
     ins_epro
     ins_restart
-    botmin_install
     menu
     profile
     enable_services
