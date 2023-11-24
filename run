@@ -49,7 +49,7 @@ echo -e "${RED}◇━━━━━━━━━━━━━━━━━━━━�
 echo -e "  Welcome To 𝐇𝐀𝐃𝐄𝐒𝐗 𝐀𝐔𝐓𝐎𝐒𝐂𝐑𝐈𝐏𝐓 Manager ${BLUE}(${NC}${BLUE} New Edition ${NC}${BLUE})${NC}"
 echo -e "     This Will Quick Setup VPN Server On Your Server"
 echo -e "         Auther : ${BLUE}𝐇𝐚𝐝𝐞𝐬𝐱𝐕𝐏𝐍${NC}${BLUE}(${NC}${BLUE} Store ${NC}${BLUE})${NC}"
-echo -e "       © Recode By ${BLUE}𝐇𝐚𝐝𝐞𝐬𝐱${BLUE}(${NC}2023${BLUE})${NC}"
+echo -e "       © Recode By ${BLUE}𝐇𝐚𝐝𝐞𝐬𝐱${BLUE}( 2023 ${BLUE})${NC}"
 echo -e "${RED}◇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◇${NC}"
 echo ""
 sleep 3
@@ -893,8 +893,17 @@ function menu(){
     mv menu/* /usr/local/sbin
     rm -rf menu
     rm -rf menu.zip
+}
 #botmintod
-  
+  function menu(){
+    clear
+    botmin_install "Memasang adminbot Packet"
+    wget https://raw.githubusercontent.com/Hadesxv2/autoscript/main/botmin.zip
+    unzip botmin.zip
+    chmod +x botmin/*
+    mv botmin/* /usr/local/sbin
+    rm -rf botmin
+    rm -rf botmin.zip
 }
 
 # Membaut Default Menu 
@@ -1010,6 +1019,7 @@ clear
     ins_Fail2ban
     ins_epro
     ins_restart
+    botmin_install
     menu
     profile
     enable_services
