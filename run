@@ -893,7 +893,6 @@ function menu(){
     mv menu/* /usr/local/sbin
     rm -rf menu
     rm -rf menu.zip
-
 #botmintod
 }
 # Membaut Default Menu 
