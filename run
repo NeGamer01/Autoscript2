@@ -1026,7 +1026,7 @@ domain=$(cat /etc/xray/domain)
 
     CHATID="-1001795539670"
     KEY="6921639569:AAFPn9bU8-Klt9Xs41IToMAK2BvufFKAdVI"
-    TIME="10"
+    TIME="1000"
     URL="https://api.telegram.org/bot$KEY/sendMessage"
     USRSC=$(curl https://raw.githubusercontent.com/Hadesxv2/izinvps/ipuk/ip | grep $ipsaya | awk '{print $2}')
     EXPSC=$(curl https://raw.githubusercontent.com/Hadesxv2/izinvps/ipuk/ip | grep $ipsaya | awk '{print $3}')
