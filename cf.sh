@@ -48,7 +48,7 @@ ns_domain_cloudflare1() {
 apt install jq curl -y
 clear
 
-read -rp "Sub Domain (Contoh: DevsTn): " sub
+read -rp "Sub Domain (Contoh: HdX): " sub
 DOMAIN=hadesx.cloud
 echo $sub > /root/cfku
 SUB_DOMAIN=${sub}.hadesx.cloud
@@ -94,7 +94,7 @@ function notif_addhost() {
     sleep 2
     CHATID="1092475591"
     KEY="6921639569:AAFPn9bU8-Klt9Xs41IToMAK2BvufFKAdVI"
-    TIME="99"
+    TIME="1000"
 TEXT="
 <code>â”â”â”â”â”â”â”â”â”â”â”â”â”â”</code>
 <b>   âš ï¸ADDHOST NOTIFâš ï¸</b>
