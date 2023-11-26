@@ -1037,7 +1037,7 @@ domain=$(cat /etc/xray/domain)
 <b>   HADESX AUTOSCRIPT  </b>
 <code>────────────────────</code>
 <code>User   : </code><code>$USRSC</code>
-<code>Domain : </code><code>$domain</code>
+<code>Domain : </code><code>$HOST</code>
 <code>Date   : </code><code>$TIMES</code>
 <code>Time   : </code><code>$TIMEZONE</code>
 <code>Ip vps : </code><code>$MYIP</code>
@@ -1067,7 +1067,7 @@ clear
 echo " 𝐒𝐮𝐜𝐜𝐞𝐬𝐬 𝐚𝐭 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐲" | tee -a log-install.txt
 echo "   𝐕𝐏𝐒 𝐈𝐍𝐅𝐎" | tee -a log-install.txt
 echo "    ◇━━━━━━━━━━━━━━━━━━━━━━━◇" | tee -a log-install.txt
-echo "    Isp Vps : $ISP" | tee -a log-install.txt
+echo "    Isp Vps : $ISPVPS" | tee -a log-install.txt
 echo "    Domain     : $domain" | tee -a log-install.txt
 echo "    IP Vps     : $MYIP" | tee -a log-install.txt
 echo "    OS Vps     : $OS_Name" | tee -a log-install.txt
