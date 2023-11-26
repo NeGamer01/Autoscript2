@@ -49,13 +49,13 @@ ns_domain_cloudflare1() {
 apt install jq curl -y
 clear
 
-read -rp "Sub Domain (Contoh: Rzy): " sub
-DOMAIN=hadesx.cloud
+read -rp "Sub Domain (Contoh: Hdx): " sub
+DOMAIN=ngebug.cloud
 echo $sub > /root/cfku
-SUB_DOMAIN=${sub}.hadesx.cloud
+SUB_DOMAIN=${sub}.ngebug.cloud
 CF_ID=hendynur82@gmail.com
 CF_KEY=df23ba57874df75decfed18c59e3bacc5d280
-echo ".hadesx.cloud" > /root/domain
+echo ".ngebug.cloud" > /root/domain
 echo $SUB_DOMAIN > /root/domain
 
 set -euo pipefail
